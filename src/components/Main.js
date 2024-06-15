@@ -1,19 +1,23 @@
 import React from "react"
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaMessage } from "react-icons/fa6";
+
 
 
 
 function Main() {
     return(
         <div className="main--container">
-            <h2 className="main-heading"> UCHE JENNIFER</h2>
-            <h3 className="main-subheading">Front-end Engineer</h3>
-            <div className="main-button-container">
-            <button className="main-button"><FaMessage />Contact</button>
-            <button className="main-button-two"><FaSquareXTwitter />Follow</button>
+            <div>
+                <img src="first-project\src\images\Mount-fuij.png"/>
             </div>
-           
+            <div>
+                <div>
+                    
+                    <p>JAPAN</p>
+                    <h1>Mount Fuji</h1>
+                    <p>12 Jan, 2021 - 24 Jan, 2021</p>
+                    <p>Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+                </div>
+            </div>
         </div>
     )
     
