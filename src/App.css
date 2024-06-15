@@ -1,17 +1,70 @@
+    body {
+        font-family: "Inter" , sans-serif;
+        color:#2B283A
+    }
 
-.header-container{
-    display:flex;
+    p {
+        font-size: 0.688rem;
+        font-weight: 400;
+        line-height: 150%;
+        max-width: 470px;
+    }
+
+
+    .header-container {
+    display: flex;
     flex-direction: row;
     align-items: center;
-    gap:7px;
-    background-color:#F55A5A;
+    gap: 7px;
+    background-color: #f55a5a;
     color: white;
     justify-content: center;
-    
-}
-.header-title{
+    }
+
+    .header-image {
+        width:24px;
+    }
+    .header-title {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.9rem;
-}
+    }
+
+
+    .main-container{
+        margin-top: 45px;
+        margin-left: 40px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+    }
+
+    .card-image{
+        width:125px;
+    }
+    .location-info{
+        display:flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .location-icon{
+        width: 8px;
+        margin-right: 4px;
+    }
+    .location{
+        font-size: 0.625rem;
+        letter-spacing: 2px;
+        margin-right: 12px;
+    }
+    .location-link{
+        color:#918E9B;
+        font-size: 0.625rem;
+        text-decoration: underline;
+    }
+
+    .sub-heading{
+        font-weight: 700;
+    }

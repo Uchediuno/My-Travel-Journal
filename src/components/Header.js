@@ -5,19 +5,12 @@ import React from "react"
 function Header() {
     return(
        <div className="header-container">
-        <img src="first-project\src\images\world-icon.png" alt ="image of a globe"/>
+        <img src= "./world-icon.png" className="header-image"/>
           <h4 className="header-title">my travel journal.</h4>
        </div>
     )
     
 }
-
-
-
-
-
-
-
 
 
 

@@ -1,35 +1,24 @@
-import React from "react"
+import React from "react";
 
-
-
-
-function Main() {
-    return(
-        <div className="main--container">
-            <div>
-                <img src="first-project\src\images\Mount-fuij.png"/>
-            </div>
-            <div>
-                <div>
-                    
-                    <p>JAPAN</p>
-                    <h1>Mount Fuji</h1>
-                    <p>12 Jan, 2021 - 24 Jan, 2021</p>
-                    <p>Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
-                </div>
-            </div>
+function Main(props) {
+  return (
+    <div className="main-container">
+      <div>
+        <img src={props.item.image} className="card-image"/>
+      </div>
+      <div>
+        <div classNAme="location-info">
+          <img src="./location-icon.png" className="location-icon" />
+          <span className="location">{props.item.location}</span>
+          <span className="location-link">{props.item.link}</span>
         </div>
-    )
-    
+          <h1>{props.item.title}</h1>
+          <p className="sub-heading">{props.item.date}</p>
+          <p>{props.item.description}</p>
+        </div>
+    </div>
+
+  );
 }
-
-
-
-
-
-
-
-
-
 
 export default Main;

@@ -2,8 +2,8 @@ export default [
 
     {
         id : 1,
-        image:"..\images\Mount fuij.png",
-        location: "Japan",
+        image:"./mount-fuji.png",
+        location: "JAPAN",
         link:"View on Google Maps",
         title: "Mount Fuji",
         date: "12 Jan, 2021 - 24 Jan, 2021",
@@ -13,8 +13,8 @@ export default [
 
     {
         id : 2,
-        image:"..\images\Sydney opera house.png",
-        location: "Australia",
+        image:"./Sydney-opera house.png",
+        location: "AUSTRALIA",
         link:"View on Google Maps",
         title: "Syndney Opera House",
         date: "12 May, 2021 - 8 Jun, 2021", 
@@ -24,8 +24,8 @@ export default [
 
     {
         id : 3,
-        image:"..\images\Geirangerfjord.png",
-        location: "Norway",
+        image:"./Geirangerfjord.png",
+        location: "NORWAY",
         link:"View on Google Maps",
         title: "Geirangerfjord",
         date: "01 Oct, 2021 - 18 Nov, 2021",
